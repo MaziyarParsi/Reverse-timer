@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="timer">
+        <h1>Take a deep breath</h1>
+        <div id="paraghraph">
+          <p id="minutes">02:</p>
+          <p id="seconds">00</p>
+        </div>
+        <div id="buttons">
+          <button id="start" onclick="start()">Start</button>
+          <button disabled id="pause" onclick="pause()">Pause</button>
+          <button disabled id="reset" onclick="reset()">Reset</button>
+        </div>
+      </div>
+      <div class="imageContainer">
+        <img src="images/time_management.svg" alt="countImage" />
+      </div>
+    </div>
+  </body>
+</html>
